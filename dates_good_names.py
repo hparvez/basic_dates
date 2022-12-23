@@ -40,11 +40,9 @@ class Date(object):
             return 0
 
     def get_day_of_week(self) -> int:
-        # Final 2 digits of the year, e.g. 2022 -> 22
         year_digits = int(self.year[2:])
         month_key_number = MONTH_KEY[self.month_name]
 
-        # Adjust for leap years
         if self.is_leap_year():
             if self.month_name == "January" or self.month_name == "February":
                 month_key_number -= 1

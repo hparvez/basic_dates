@@ -31,7 +31,6 @@ class d(object):
         x = int(self.c[2:])
         y = stuff[self.b]
 
-        # Adjust for leap years
         if self.something():
             if self.b == "01" or self.b == "02":
                 y -= 1
