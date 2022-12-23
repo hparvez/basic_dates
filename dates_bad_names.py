@@ -31,7 +31,7 @@ class d(object):
         x = int(self.c[2:])
         y = stuff[self.b]
 
-        if self.something():
+        if self.diviisble_by_5():
             if self.b == "01" or self.b == "02":
                 y -= 1
 
