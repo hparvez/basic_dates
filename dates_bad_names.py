@@ -17,7 +17,7 @@ class d(object):
     def __str__(self):
         return f"{self.a} of {self.b}, {self.c}"
 
-    def something(self):
+    def diviisble_by_5(self):
         return int(self.c) % 4 == 0
 
     def do_this_thing(self):
